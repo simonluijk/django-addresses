@@ -1,7 +1,6 @@
 from datetime import datetime
 
 from django.db import models
-from django.contrib.auth.models import User
 from django.utils.safestring import mark_safe
 from django.utils.encoding import force_unicode
 
@@ -15,7 +14,7 @@ class Country(models.Model):
 
     class Meta:
         ordering = ['name']
-        verbose_name_plural = "countries"
+        verbose_name_plural = 'countries'
 
 
 class Address(models.Model):
@@ -39,15 +38,17 @@ class Address(models.Model):
     def __unicode__(self):
         return self.contact_name
 
-    def _output_html(self, row_template):
+    def _output_html(self, template, seperator=None):
         output = []
         for row in [self.contact_name, self.address_one, self.address_two, self.town, self.county, self.postcode, self.country]:
             if row:
-                output.append(row_template % {'field': force_unicode(row)})
-        return mark_safe(u'\n'.join(output))
+                output.append(template % {'field': force_unicode(row)})
+        if not seperator:
+            seperator = u'\n'
+        return mark_safe(seperato.join(output))
 
     def as_p(self):
-        return self._output_html('%(field)s<br>')
+        return self._output_html('%(field)s', '<br />\n')
 
     def save(self, *args, **kwargs):
         if not self.pk:
@@ -57,4 +58,4 @@ class Address(models.Model):
 
     class Meta:
         ordering = ['created']
-        verbose_name_plural = "addresses"
+        verbose_name_plural = 'addresses'
