@@ -3,52 +3,76 @@ from datetime import datetime
 from django.db import models
 from django.utils.safestring import mark_safe
 from django.utils.encoding import force_unicode
+from django.utils.translation import ugettext_lazy as _
+
+from addressbook.conf import settings
 
 
 class Country(models.Model):
-    iso_code = models.CharField(max_length=2, unique=True)
-    name = models.CharField(max_length=60)
+    iso_code = models.CharField(_('ISO code'), max_length=2, unique=True)
+    name = models.CharField(_('name'), max_length=60)
+
 
     def __unicode__(self):
         return self.name
 
+
     class Meta:
         ordering = ['name']
-        verbose_name_plural = 'countries'
+        verbose_name = _('country')
+        verbose_name_plural = _('countries')
+
 
 
 class Address(models.Model):
-    STATUS = [
-        (0, 'Active'),
-        (1, 'Display only'),
-        (2, 'Deleted'),
-    ]
-    contact_name = models.CharField(max_length=50)
-    address_one = models.CharField(max_length=50)
-    address_two = models.CharField(max_length=50, blank=True)
-    town = models.CharField(max_length=50)
-    county = models.CharField(max_length=50, blank=True)
-    postcode = models.CharField(max_length=50)
-    country = models.ForeignKey(Country)
-    status = models.IntegerField(choices=STATUS, default=0)
-
+    STATUS = [(0, 'Active'), (1, 'Display only'), (2, 'Deleted')]
+    contact_name = models.CharField(_('contact name'), max_length=50)
+    address_one = models.CharField(_('address one'), max_length=50)
+    address_two = models.CharField(_('address two'), max_length=50, blank=True)
+    town = models.CharField(_('town'), max_length=50)
+    county = models.CharField(_('county'), max_length=50, blank=True)
+    postcode = models.CharField(_('postcode'), max_length=50)
+    country = models.ForeignKey(Country, verbose_name=_('country'))
+    status = models.IntegerField(_('status'), choices=STATUS, default=0)
     created = models.DateTimeField(editable=False)
     updated = models.DateTimeField(editable=False)
+
+
+    def __init__(self, *args, **kwargs):
+        if settings.NORMALISE_TO_UPPER:
+            if 'contact_name' in kwargs:
+                kwargs['contact_name'] = kwargs['contact_name'].upper()
+            if 'address_one' in kwargs:
+                kwargs['address_one'] = kwargs['address_one'].upper()
+            if 'address_two' in kwargs:
+                kwargs['address_two'] = kwargs['address_two'].upper()
+            if 'town' in kwargs:
+                kwargs['town'] = kwargs['town'].upper()
+            if 'county' in kwargs:
+                kwargs['county'] = kwargs['county'].upper()
+            if 'postcode' in kwargs:
+                kwargs['postcode'] = kwargs['postcode'].upper()
+        super(Address, self).__init__(*args, **kwargs)
+
 
     def __unicode__(self):
         return self.contact_name
 
+
     def _output_html(self, template, seperator=None):
         output = []
-        for row in [self.contact_name, self.address_one, self.address_two, self.town, self.county, self.postcode, self.country]:
+        for row in [self.contact_name, self.address_one, self.address_two,
+                    self.town, self.county, self.postcode, self.country]:
             if row:
                 output.append(template % {'field': force_unicode(row)})
         if not seperator:
             seperator = u'\n'
-        return mark_safe(seperato.join(output))
+        return mark_safe(seperator.join(output))
+
 
     def as_p(self):
-        return self._output_html('%(field)s', '<br />\n')
+        return self._output_html(u'%(field)s', u'<br />\n')
+
 
     def save(self, *args, **kwargs):
         if not self.pk:
@@ -56,6 +80,9 @@ class Address(models.Model):
         self.updated = datetime.today()
         super(Address, self).save(*args, **kwargs)
 
+
     class Meta:
         ordering = ['created']
-        verbose_name_plural = 'addresses'
+        verbose_name = _('address')
+        verbose_name_plural = _('addresses')
+
