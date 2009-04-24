@@ -75,6 +75,13 @@ class Address(models.Model):
 
 
     def save(self, *args, **kwargs):
+        if settings.NORMALISE_TO_UPPER:
+            self.contact_name = self.contact_name.upper()
+            self.address_one = self.address_one.upper()
+            self.address_two = self.address_two.upper()
+            self.town = self.town.upper()
+            self.county = self.county.upper()
+            self.postcode = self.postcode.upper()
         if not self.pk:
             self.created = datetime.today()
         self.updated = datetime.today()
