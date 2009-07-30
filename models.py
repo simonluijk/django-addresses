@@ -4,6 +4,7 @@ from django.db import models
 from django.utils.safestring import mark_safe
 from django.utils.encoding import force_unicode
 from django.utils.translation import ugettext_lazy as _
+from django_extensions.db.models import TimeStampedModel
 
 from addressbook.conf import settings
 
@@ -23,8 +24,7 @@ class Country(models.Model):
         verbose_name_plural = _('countries')
 
 
-
-class Address(models.Model):
+class Address(TimeStampedModel):
     STATUS = [(0, 'Active'), (1, 'Display only'), (2, 'Deleted')]
     contact_name = models.CharField(_('contact name'), max_length=50)
     address_one = models.CharField(_('address one'), max_length=50)
@@ -34,8 +34,6 @@ class Address(models.Model):
     postcode = models.CharField(_('postcode'), max_length=50)
     country = models.ForeignKey(Country, verbose_name=_('country'))
     status = models.IntegerField(_('status'), choices=STATUS, default=0)
-    created = models.DateTimeField(editable=False)
-    updated = models.DateTimeField(editable=False)
 
 
     def __init__(self, *args, **kwargs):
@@ -82,9 +80,6 @@ class Address(models.Model):
             self.town = self.town.upper()
             self.county = self.county.upper()
             self.postcode = self.postcode.upper()
-        if not self.pk:
-            self.created = datetime.today()
-        self.updated = datetime.today()
         super(Address, self).save(*args, **kwargs)
 
 
@@ -92,4 +87,3 @@ class Address(models.Model):
         ordering = ['created']
         verbose_name = _('address')
         verbose_name_plural = _('addresses')
-
