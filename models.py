@@ -87,3 +87,4 @@ class Address(TimeStampedModel):
         ordering = ['created']
         verbose_name = _('address')
         verbose_name_plural = _('addresses')
+        get_latest_by = 'created'
