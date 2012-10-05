@@ -1,0 +1,3 @@
+include LICENCE
+recursive-include addressbook/conf/locale *.po
+recursive-include addressbook/fixtures *.xml

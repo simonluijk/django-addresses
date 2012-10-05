@@ -1,47 +1,6 @@
-"""
-Based entirely on Django's own ``setup.py``.
-"""
 from distutils.core import setup
-from distutils.command.install  import INSTALL_SCHEMES
-import os
 
-# Tell distutils to put the data_files in platform-specific installation
-# locations. See here for an explanation:
-# http://groups.google.com/group/comp.lang.python/browse_thread/thread/35ec7b2fed36eaec/
-for scheme in INSTALL_SCHEMES.values():
-    scheme['data'] = scheme['purelib']
-
-def fullsplit(path, result=None):
-    """
-    Split a pathname into components (the opposite of os.path.join) in a
-    platform-neutral way.
-    """
-    if result is None:
-        result = []
-    head, tail = os.path.split(path)
-    if head == '':
-        return [tail] + result
-    if head == path:
-        return result
-    return fullsplit(head, [tail] + result)
-
-# Compile the list of packages available, because distutils doesn't have
-# an easy way to do this.
-packages, data_files = [], []
-root_dir = os.path.dirname(__file__)
-if root_dir != '':
-    os.chdir(root_dir)
-base_dir = 'addressbook'
- 	
-for dirpath, dirnames, filenames in os.walk(base_dir):
-    # Ignore dirnames that start with '.'
-    for i, dirname in enumerate(dirnames):
-        if dirname.startswith('.'):
-            del dirnames[i]
-    if '__init__.py' in filenames:
-        packages.append('.'.join(fullsplit(dirpath)))
-    elif filenames:
-        data_files.append([dirpath, [os.path.join(dirpath, f) for f in filenames]])
+PACKAGE_NAME = 'django-addresses'
 
 # Dynamically calculate the version
 version_tuple = __import__('addressbook').VERSION
@@ -51,14 +10,16 @@ else:
     version = "%d.%d" % version_tuple[:2]
 
 setup(
-    name = 'django-addressbook',
-    description = 'Some forms around a few models to manage addresses',
-    version = version,
     author = 'Simon Luijk',
-    author_email = 'simon@luijk.co.uk',
-    url = 'http://www.apricotwebsolutions.com/p/addressbook/',
-    packages = packages,
-    data_files = data_files,
+    author_email = 'simon@simonluijk.com',
+    name = PACKAGE_NAME,
+    version = version,
+    description = 'Some forms around a few models to manage addresses',
+    url = 'http://pypi.python.org/pypi/%s/' % PACKAGE_NAME,
+    packages = [
+        'addressbook',
+        'addressbook.conf',
+    ],
     classifiers = [
         'Development Status :: 4 - Beta',
         'Environment :: Web Environment',
