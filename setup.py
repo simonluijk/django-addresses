@@ -1,7 +1,5 @@
 from distutils.core import setup
 
-PACKAGE_NAME = 'django-addresses'
-
 # Dynamically calculate the version
 version_tuple = __import__('addressbook').VERSION
 if version_tuple[2] is not None:
@@ -12,10 +10,10 @@ else:
 setup(
     author = 'Simon Luijk',
     author_email = 'simon@simonluijk.com',
-    name = PACKAGE_NAME,
+    name = 'django-addresses',
     version = version,
     description = 'Some forms around a few models to manage addresses',
-    url = 'http://pypi.python.org/pypi/%s/' % PACKAGE_NAME,
+    url = 'https://github.com/simonluijk/django-addresses,
     packages = [
         'addressbook',
         'addressbook.conf',
