@@ -13,7 +13,7 @@ setup(
     name = 'django-addresses',
     version = version,
     description = 'Some forms around a few models to manage addresses',
-    url = 'https://github.com/simonluijk/django-addresses,
+    url = 'https://github.com/simonluijk/django-addresses',
     packages = [
         'addressbook',
         'addressbook.conf',
