@@ -1,0 +1,24 @@
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.3.0
+    hooks:
+    - id: end-of-file-fixer
+    - id: trailing-whitespace
+-   repo: https://github.com/psf/black
+    rev: 23.3.0
+    hooks:
+    -   id: black
+# -   repo: local
+#     hooks:
+#     -   id: coverage
+#         name: Coverage
+#         language: system
+#         entry: coverage run
+#         types: [python]
+#         pass_filenames: false
+#     -   id: coverage_report
+#         name: Coverage report
+#         language: system
+#         entry: coverage html
+#         types: [python]
+#         pass_filenames: false

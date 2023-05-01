@@ -1,0 +1,9 @@
+[run]
+branch = True
+command_line = ./runtests.py
+source = addressbook/
+omit = addressbook/admin.py
+
+[report]
+skip_covered = true
+fail_under = 98
