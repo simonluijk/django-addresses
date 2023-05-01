@@ -5,4 +5,4 @@ from addressbook.models import Address
 class AddressForm(forms.ModelForm):
     class Meta:
         model = Address
-        exclude = ('status',)
+        exclude = ("is_deleted",)

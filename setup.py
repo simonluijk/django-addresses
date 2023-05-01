@@ -1,31 +1,28 @@
+#!/usr/bin/env python
 from distutils.core import setup
 
-# Dynamically calculate the version
-version_tuple = __import__('addressbook').VERSION
-if version_tuple[2] is not None:
-    version = "%d.%d_%s" % version_tuple
-else:
-    version = "%d.%d" % version_tuple[:2]
+VERSION = __import__("addressbook").VERSION
 
 setup(
-    author = 'Simon Luijk',
-    author_email = 'simon@simonluijk.com',
-    name = 'django-addresses',
-    version = version,
-    description = 'Some forms around a few models to manage addresses',
-    url = 'https://github.com/simonluijk/django-addresses',
-    packages = [
-        'addressbook',
-        'addressbook.conf',
+    author="Simon Luijk",
+    author_email="simon@simonluijk.com",
+    name="django-addresses",
+    version=VERSION,
+    description="Some forms around a few models to manage addresses",
+    url="https://github.com/simonluijk/django-addresses",
+    packages=[
+        "addressbook",
+        "addressbook.conf",
+        "addressbook.migrations",
     ],
-    classifiers = [
-        'Development Status :: 4 - Beta',
-        'Environment :: Web Environment',
-        'Framework :: Django',
-        'Intended Audience :: Developers',
-        'License :: OSI Approved :: BSD License',
-        'Operating System :: OS Independent',
-        'Programming Language :: Python',
-        'Topic :: Utilities'
+    classifiers=[
+        "Development Status :: 4 - Beta",
+        "Environment :: Web Environment",
+        "Framework :: Django",
+        "Intended Audience :: Developers",
+        "License :: OSI Approved :: BSD License",
+        "Operating System :: OS Independent",
+        "Programming Language :: Python",
+        "Topic :: Utilities",
     ],
 )
