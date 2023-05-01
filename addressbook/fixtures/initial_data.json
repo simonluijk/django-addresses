@@ -1,0 +1,1970 @@
+[
+{
+  "model": "addressbook.country",
+  "pk": 1,
+  "fields": {
+    "iso_code": "AF",
+    "name": "AFGHANISTAN"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 2,
+  "fields": {
+    "iso_code": "AX",
+    "name": "ALAND ISLANDS"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 3,
+  "fields": {
+    "iso_code": "AL",
+    "name": "ALBANIA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 4,
+  "fields": {
+    "iso_code": "DZ",
+    "name": "ALGERIA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 5,
+  "fields": {
+    "iso_code": "AS",
+    "name": "AMERICAN SAMOA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 6,
+  "fields": {
+    "iso_code": "AD",
+    "name": "ANDORRA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 7,
+  "fields": {
+    "iso_code": "AO",
+    "name": "ANGOLA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 8,
+  "fields": {
+    "iso_code": "AI",
+    "name": "ANGUILLA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 9,
+  "fields": {
+    "iso_code": "AQ",
+    "name": "ANTARCTICA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 10,
+  "fields": {
+    "iso_code": "AG",
+    "name": "ANTIGUA AND BARBUDA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 11,
+  "fields": {
+    "iso_code": "AR",
+    "name": "ARGENTINA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 12,
+  "fields": {
+    "iso_code": "AM",
+    "name": "ARMENIA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 13,
+  "fields": {
+    "iso_code": "AW",
+    "name": "ARUBA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 14,
+  "fields": {
+    "iso_code": "AU",
+    "name": "AUSTRALIA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 15,
+  "fields": {
+    "iso_code": "AT",
+    "name": "AUSTRIA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 16,
+  "fields": {
+    "iso_code": "AZ",
+    "name": "AZERBAIJAN"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 17,
+  "fields": {
+    "iso_code": "BS",
+    "name": "BAHAMAS"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 18,
+  "fields": {
+    "iso_code": "BH",
+    "name": "BAHRAIN"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 19,
+  "fields": {
+    "iso_code": "BD",
+    "name": "BANGLADESH"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 20,
+  "fields": {
+    "iso_code": "BB",
+    "name": "BARBADOS"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 21,
+  "fields": {
+    "iso_code": "BY",
+    "name": "BELARUS"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 22,
+  "fields": {
+    "iso_code": "BE",
+    "name": "BELGIUM"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 23,
+  "fields": {
+    "iso_code": "BZ",
+    "name": "BELIZE"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 24,
+  "fields": {
+    "iso_code": "BJ",
+    "name": "BENIN"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 25,
+  "fields": {
+    "iso_code": "BM",
+    "name": "BERMUDA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 26,
+  "fields": {
+    "iso_code": "BT",
+    "name": "BHUTAN"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 27,
+  "fields": {
+    "iso_code": "BO",
+    "name": "BOLIVIA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 28,
+  "fields": {
+    "iso_code": "BA",
+    "name": "BOSNIA AND HERZEGOVINA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 29,
+  "fields": {
+    "iso_code": "BW",
+    "name": "BOTSWANA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 30,
+  "fields": {
+    "iso_code": "BV",
+    "name": "BOUVET ISLAND"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 31,
+  "fields": {
+    "iso_code": "BR",
+    "name": "BRAZIL"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 32,
+  "fields": {
+    "iso_code": "IO",
+    "name": "BRITISH INDIAN OCEAN TERRITORY"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 33,
+  "fields": {
+    "iso_code": "BN",
+    "name": "BRUNEI DARUSSALAM"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 34,
+  "fields": {
+    "iso_code": "BG",
+    "name": "BULGARIA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 35,
+  "fields": {
+    "iso_code": "BF",
+    "name": "BURKINA FASO"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 36,
+  "fields": {
+    "iso_code": "BI",
+    "name": "BURUNDI"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 37,
+  "fields": {
+    "iso_code": "KH",
+    "name": "CAMBODIA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 38,
+  "fields": {
+    "iso_code": "CM",
+    "name": "CAMEROON"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 39,
+  "fields": {
+    "iso_code": "CA",
+    "name": "CANADA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 40,
+  "fields": {
+    "iso_code": "CV",
+    "name": "CAPE VERDE"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 41,
+  "fields": {
+    "iso_code": "KY",
+    "name": "CAYMAN ISLANDS"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 42,
+  "fields": {
+    "iso_code": "CF",
+    "name": "CENTRAL AFRICAN REPUBLIC"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 43,
+  "fields": {
+    "iso_code": "TD",
+    "name": "CHAD"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 44,
+  "fields": {
+    "iso_code": "CL",
+    "name": "CHILE"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 45,
+  "fields": {
+    "iso_code": "CN",
+    "name": "CHINA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 46,
+  "fields": {
+    "iso_code": "CX",
+    "name": "CHRISTMAS ISLAND"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 47,
+  "fields": {
+    "iso_code": "CC",
+    "name": "COCOS (KEELING) ISLANDS"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 48,
+  "fields": {
+    "iso_code": "CO",
+    "name": "COLOMBIA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 49,
+  "fields": {
+    "iso_code": "KM",
+    "name": "COMOROS"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 50,
+  "fields": {
+    "iso_code": "CG",
+    "name": "CONGO"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 51,
+  "fields": {
+    "iso_code": "CD",
+    "name": "CONGO, THE DEMOCRATIC REPUBLIC OF THE"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 52,
+  "fields": {
+    "iso_code": "CK",
+    "name": "COOK ISLANDS"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 53,
+  "fields": {
+    "iso_code": "CR",
+    "name": "COSTA RICA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 54,
+  "fields": {
+    "iso_code": "CI",
+    "name": "COTE D'IVOIRE"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 55,
+  "fields": {
+    "iso_code": "HR",
+    "name": "CROATIA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 56,
+  "fields": {
+    "iso_code": "CU",
+    "name": "CUBA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 57,
+  "fields": {
+    "iso_code": "CY",
+    "name": "CYPRUS"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 58,
+  "fields": {
+    "iso_code": "CZ",
+    "name": "CZECH REPUBLIC"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 59,
+  "fields": {
+    "iso_code": "DK",
+    "name": "DENMARK"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 60,
+  "fields": {
+    "iso_code": "DJ",
+    "name": "DJIBOUTI"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 61,
+  "fields": {
+    "iso_code": "DM",
+    "name": "DOMINICA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 62,
+  "fields": {
+    "iso_code": "DO",
+    "name": "DOMINICAN REPUBLIC"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 63,
+  "fields": {
+    "iso_code": "EC",
+    "name": "ECUADOR"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 64,
+  "fields": {
+    "iso_code": "EG",
+    "name": "EGYPT"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 65,
+  "fields": {
+    "iso_code": "SV",
+    "name": "EL SALVADOR"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 66,
+  "fields": {
+    "iso_code": "GQ",
+    "name": "EQUATORIAL GUINEA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 67,
+  "fields": {
+    "iso_code": "ER",
+    "name": "ERITREA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 68,
+  "fields": {
+    "iso_code": "EE",
+    "name": "ESTONIA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 69,
+  "fields": {
+    "iso_code": "ET",
+    "name": "ETHIOPIA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 70,
+  "fields": {
+    "iso_code": "FK",
+    "name": "FALKLAND ISLANDS (MALVINAS)"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 71,
+  "fields": {
+    "iso_code": "FO",
+    "name": "FAROE ISLANDS"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 72,
+  "fields": {
+    "iso_code": "FJ",
+    "name": "FIJI"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 73,
+  "fields": {
+    "iso_code": "FI",
+    "name": "FINLAND"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 74,
+  "fields": {
+    "iso_code": "FR",
+    "name": "FRANCE"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 75,
+  "fields": {
+    "iso_code": "GF",
+    "name": "FRENCH GUIANA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 76,
+  "fields": {
+    "iso_code": "PF",
+    "name": "FRENCH POLYNESIA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 77,
+  "fields": {
+    "iso_code": "TF",
+    "name": "FRENCH SOUTHERN TERRITORIES"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 78,
+  "fields": {
+    "iso_code": "GA",
+    "name": "GABON"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 79,
+  "fields": {
+    "iso_code": "GM",
+    "name": "GAMBIA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 80,
+  "fields": {
+    "iso_code": "GE",
+    "name": "GEORGIA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 81,
+  "fields": {
+    "iso_code": "DE",
+    "name": "GERMANY"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 82,
+  "fields": {
+    "iso_code": "GH",
+    "name": "GHANA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 83,
+  "fields": {
+    "iso_code": "GI",
+    "name": "GIBRALTAR"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 84,
+  "fields": {
+    "iso_code": "GR",
+    "name": "GREECE"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 85,
+  "fields": {
+    "iso_code": "GL",
+    "name": "GREENLAND"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 86,
+  "fields": {
+    "iso_code": "GD",
+    "name": "GRENADA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 87,
+  "fields": {
+    "iso_code": "GP",
+    "name": "GUADELOUPE"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 88,
+  "fields": {
+    "iso_code": "GU",
+    "name": "GUAM"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 89,
+  "fields": {
+    "iso_code": "GT",
+    "name": "GUATEMALA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 90,
+  "fields": {
+    "iso_code": "GG",
+    "name": "GUERNSEY"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 91,
+  "fields": {
+    "iso_code": "GN",
+    "name": "GUINEA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 92,
+  "fields": {
+    "iso_code": "GW",
+    "name": "GUINEA-BISSAU"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 93,
+  "fields": {
+    "iso_code": "GY",
+    "name": "GUYANA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 94,
+  "fields": {
+    "iso_code": "HT",
+    "name": "HAITI"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 95,
+  "fields": {
+    "iso_code": "HM",
+    "name": "HEARD ISLAND AND MCDONALD ISLANDS"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 96,
+  "fields": {
+    "iso_code": "VA",
+    "name": "HOLY SEE (VATICAN CITY STATE)"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 97,
+  "fields": {
+    "iso_code": "HN",
+    "name": "HONDURAS"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 98,
+  "fields": {
+    "iso_code": "HK",
+    "name": "HONG KONG"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 99,
+  "fields": {
+    "iso_code": "HU",
+    "name": "HUNGARY"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 100,
+  "fields": {
+    "iso_code": "IS",
+    "name": "ICELAND"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 101,
+  "fields": {
+    "iso_code": "IN",
+    "name": "INDIA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 102,
+  "fields": {
+    "iso_code": "ID",
+    "name": "INDONESIA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 103,
+  "fields": {
+    "iso_code": "IR",
+    "name": "IRAN, ISLAMIC REPUBLIC OF"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 104,
+  "fields": {
+    "iso_code": "IQ",
+    "name": "IRAQ"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 105,
+  "fields": {
+    "iso_code": "IE",
+    "name": "IRELAND"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 106,
+  "fields": {
+    "iso_code": "IM",
+    "name": "ISLE OF MAN"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 107,
+  "fields": {
+    "iso_code": "IL",
+    "name": "ISRAEL"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 108,
+  "fields": {
+    "iso_code": "IT",
+    "name": "ITALY"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 109,
+  "fields": {
+    "iso_code": "JM",
+    "name": "JAMAICA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 110,
+  "fields": {
+    "iso_code": "JP",
+    "name": "JAPAN"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 111,
+  "fields": {
+    "iso_code": "JE",
+    "name": "JERSEY"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 112,
+  "fields": {
+    "iso_code": "JO",
+    "name": "JORDAN"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 113,
+  "fields": {
+    "iso_code": "KZ",
+    "name": "KAZAKHSTAN"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 114,
+  "fields": {
+    "iso_code": "KE",
+    "name": "KENYA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 115,
+  "fields": {
+    "iso_code": "KI",
+    "name": "KIRIBATI"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 116,
+  "fields": {
+    "iso_code": "KP",
+    "name": "KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 117,
+  "fields": {
+    "iso_code": "KR",
+    "name": "KOREA, REPUBLIC OF"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 118,
+  "fields": {
+    "iso_code": "KW",
+    "name": "KUWAIT"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 119,
+  "fields": {
+    "iso_code": "KG",
+    "name": "KYRGYZSTAN"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 120,
+  "fields": {
+    "iso_code": "LA",
+    "name": "LAO PEOPLE'S DEMOCRATIC REPUBLIC"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 121,
+  "fields": {
+    "iso_code": "LV",
+    "name": "LATVIA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 122,
+  "fields": {
+    "iso_code": "LB",
+    "name": "LEBANON"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 123,
+  "fields": {
+    "iso_code": "LS",
+    "name": "LESOTHO"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 124,
+  "fields": {
+    "iso_code": "LR",
+    "name": "LIBERIA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 125,
+  "fields": {
+    "iso_code": "LY",
+    "name": "LIBYAN ARAB JAMAHIRIYA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 126,
+  "fields": {
+    "iso_code": "LI",
+    "name": "LIECHTENSTEIN"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 127,
+  "fields": {
+    "iso_code": "LT",
+    "name": "LITHUANIA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 128,
+  "fields": {
+    "iso_code": "LU",
+    "name": "LUXEMBOURG"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 129,
+  "fields": {
+    "iso_code": "MO",
+    "name": "MACAO"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 130,
+  "fields": {
+    "iso_code": "MK",
+    "name": "MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 131,
+  "fields": {
+    "iso_code": "MG",
+    "name": "MADAGASCAR"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 132,
+  "fields": {
+    "iso_code": "MW",
+    "name": "MALAWI"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 133,
+  "fields": {
+    "iso_code": "MY",
+    "name": "MALAYSIA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 134,
+  "fields": {
+    "iso_code": "MV",
+    "name": "MALDIVES"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 135,
+  "fields": {
+    "iso_code": "ML",
+    "name": "MALI"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 136,
+  "fields": {
+    "iso_code": "MT",
+    "name": "MALTA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 137,
+  "fields": {
+    "iso_code": "MH",
+    "name": "MARSHALL ISLANDS"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 138,
+  "fields": {
+    "iso_code": "MQ",
+    "name": "MARTINIQUE"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 139,
+  "fields": {
+    "iso_code": "MR",
+    "name": "MAURITANIA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 140,
+  "fields": {
+    "iso_code": "MU",
+    "name": "MAURITIUS"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 141,
+  "fields": {
+    "iso_code": "YT",
+    "name": "MAYOTTE"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 142,
+  "fields": {
+    "iso_code": "MX",
+    "name": "MEXICO"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 143,
+  "fields": {
+    "iso_code": "FM",
+    "name": "MICRONESIA, FEDERATED STATES OF"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 144,
+  "fields": {
+    "iso_code": "MD",
+    "name": "MOLDOVA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 145,
+  "fields": {
+    "iso_code": "MC",
+    "name": "MONACO"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 146,
+  "fields": {
+    "iso_code": "MN",
+    "name": "MONGOLIA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 147,
+  "fields": {
+    "iso_code": "ME",
+    "name": "MONTENEGRO"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 148,
+  "fields": {
+    "iso_code": "MS",
+    "name": "MONTSERRAT"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 149,
+  "fields": {
+    "iso_code": "MA",
+    "name": "MOROCCO"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 150,
+  "fields": {
+    "iso_code": "MZ",
+    "name": "MOZAMBIQUE"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 151,
+  "fields": {
+    "iso_code": "MM",
+    "name": "MYANMAR"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 152,
+  "fields": {
+    "iso_code": "NA",
+    "name": "NAMIBIA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 153,
+  "fields": {
+    "iso_code": "NR",
+    "name": "NAURU"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 154,
+  "fields": {
+    "iso_code": "NP",
+    "name": "NEPAL"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 155,
+  "fields": {
+    "iso_code": "NL",
+    "name": "NETHERLANDS"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 156,
+  "fields": {
+    "iso_code": "AN",
+    "name": "NETHERLANDS ANTILLES"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 157,
+  "fields": {
+    "iso_code": "NC",
+    "name": "NEW CALEDONIA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 158,
+  "fields": {
+    "iso_code": "NZ",
+    "name": "NEW ZEALAND"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 159,
+  "fields": {
+    "iso_code": "NI",
+    "name": "NICARAGUA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 160,
+  "fields": {
+    "iso_code": "NE",
+    "name": "NIGER"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 161,
+  "fields": {
+    "iso_code": "NG",
+    "name": "NIGERIA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 162,
+  "fields": {
+    "iso_code": "NU",
+    "name": "NIUE"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 163,
+  "fields": {
+    "iso_code": "NF",
+    "name": "NORFOLK ISLAND"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 164,
+  "fields": {
+    "iso_code": "MP",
+    "name": "NORTHERN MARIANA ISLANDS"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 165,
+  "fields": {
+    "iso_code": "NO",
+    "name": "NORWAY"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 166,
+  "fields": {
+    "iso_code": "OM",
+    "name": "OMAN"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 167,
+  "fields": {
+    "iso_code": "PK",
+    "name": "PAKISTAN"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 168,
+  "fields": {
+    "iso_code": "PW",
+    "name": "PALAU"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 169,
+  "fields": {
+    "iso_code": "PS",
+    "name": "PALESTINIAN TERRITORY, OCCUPIED"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 170,
+  "fields": {
+    "iso_code": "PA",
+    "name": "PANAMA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 171,
+  "fields": {
+    "iso_code": "PG",
+    "name": "PAPUA NEW GUINEA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 172,
+  "fields": {
+    "iso_code": "PY",
+    "name": "PARAGUAY"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 173,
+  "fields": {
+    "iso_code": "PE",
+    "name": "PERU"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 174,
+  "fields": {
+    "iso_code": "PH",
+    "name": "PHILIPPINES"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 175,
+  "fields": {
+    "iso_code": "PN",
+    "name": "PITCAIRN"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 176,
+  "fields": {
+    "iso_code": "PL",
+    "name": "POLAND"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 177,
+  "fields": {
+    "iso_code": "PT",
+    "name": "PORTUGAL"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 178,
+  "fields": {
+    "iso_code": "PR",
+    "name": "PUERTO RICO"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 179,
+  "fields": {
+    "iso_code": "QA",
+    "name": "QATAR"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 180,
+  "fields": {
+    "iso_code": "RE",
+    "name": "REUNION"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 181,
+  "fields": {
+    "iso_code": "RO",
+    "name": "ROMANIA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 182,
+  "fields": {
+    "iso_code": "RU",
+    "name": "RUSSIAN FEDERATION"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 183,
+  "fields": {
+    "iso_code": "RW",
+    "name": "RWANDA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 184,
+  "fields": {
+    "iso_code": "BL",
+    "name": "SAINT BARTHELEMY"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 185,
+  "fields": {
+    "iso_code": "SH",
+    "name": "SAINT HELENA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 186,
+  "fields": {
+    "iso_code": "KN",
+    "name": "SAINT KITTS AND NEVIS"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 187,
+  "fields": {
+    "iso_code": "LC",
+    "name": "SAINT LUCIA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 188,
+  "fields": {
+    "iso_code": "MF",
+    "name": "SAINT MARTIN"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 189,
+  "fields": {
+    "iso_code": "PM",
+    "name": "SAINT PIERRE AND MIQUELON"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 190,
+  "fields": {
+    "iso_code": "VC",
+    "name": "SAINT VINCENT AND THE GRENADINES"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 191,
+  "fields": {
+    "iso_code": "WS",
+    "name": "SAMOA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 192,
+  "fields": {
+    "iso_code": "SM",
+    "name": "SAN MARINO"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 193,
+  "fields": {
+    "iso_code": "ST",
+    "name": "SAO TOME AND PRINCIPE"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 194,
+  "fields": {
+    "iso_code": "SA",
+    "name": "SAUDI ARABIA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 195,
+  "fields": {
+    "iso_code": "SN",
+    "name": "SENEGAL"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 196,
+  "fields": {
+    "iso_code": "RS",
+    "name": "SERBIA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 197,
+  "fields": {
+    "iso_code": "SC",
+    "name": "SEYCHELLES"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 198,
+  "fields": {
+    "iso_code": "SL",
+    "name": "SIERRA LEONE"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 199,
+  "fields": {
+    "iso_code": "SG",
+    "name": "SINGAPORE"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 200,
+  "fields": {
+    "iso_code": "SK",
+    "name": "SLOVAKIA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 201,
+  "fields": {
+    "iso_code": "SI",
+    "name": "SLOVENIA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 202,
+  "fields": {
+    "iso_code": "SB",
+    "name": "SOLOMON ISLANDS"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 203,
+  "fields": {
+    "iso_code": "SO",
+    "name": "SOMALIA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 204,
+  "fields": {
+    "iso_code": "ZA",
+    "name": "SOUTH AFRICA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 205,
+  "fields": {
+    "iso_code": "GS",
+    "name": "SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 206,
+  "fields": {
+    "iso_code": "ES",
+    "name": "SPAIN"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 207,
+  "fields": {
+    "iso_code": "LK",
+    "name": "SRI LANKA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 208,
+  "fields": {
+    "iso_code": "SD",
+    "name": "SUDAN"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 209,
+  "fields": {
+    "iso_code": "SR",
+    "name": "SURINAME"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 210,
+  "fields": {
+    "iso_code": "SJ",
+    "name": "SVALBARD AND JAN MAYEN"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 211,
+  "fields": {
+    "iso_code": "SZ",
+    "name": "SWAZILAND"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 212,
+  "fields": {
+    "iso_code": "SE",
+    "name": "SWEDEN"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 213,
+  "fields": {
+    "iso_code": "CH",
+    "name": "SWITZERLAND"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 214,
+  "fields": {
+    "iso_code": "SY",
+    "name": "SYRIAN ARAB REPUBLIC"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 215,
+  "fields": {
+    "iso_code": "TW",
+    "name": "TAIWAN, PROVINCE OF CHINA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 216,
+  "fields": {
+    "iso_code": "TJ",
+    "name": "TAJIKISTAN"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 217,
+  "fields": {
+    "iso_code": "TZ",
+    "name": "TANZANIA, UNITED REPUBLIC OF"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 218,
+  "fields": {
+    "iso_code": "TH",
+    "name": "THAILAND"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 219,
+  "fields": {
+    "iso_code": "TL",
+    "name": "TIMOR-LESTE"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 220,
+  "fields": {
+    "iso_code": "TG",
+    "name": "TOGO"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 221,
+  "fields": {
+    "iso_code": "TK",
+    "name": "TOKELAU"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 222,
+  "fields": {
+    "iso_code": "TO",
+    "name": "TONGA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 223,
+  "fields": {
+    "iso_code": "TT",
+    "name": "TRINIDAD AND TOBAGO"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 224,
+  "fields": {
+    "iso_code": "TN",
+    "name": "TUNISIA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 225,
+  "fields": {
+    "iso_code": "TR",
+    "name": "TURKEY"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 226,
+  "fields": {
+    "iso_code": "TM",
+    "name": "TURKMENISTAN"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 227,
+  "fields": {
+    "iso_code": "TC",
+    "name": "TURKS AND CAICOS ISLANDS"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 228,
+  "fields": {
+    "iso_code": "TV",
+    "name": "TUVALU"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 229,
+  "fields": {
+    "iso_code": "UG",
+    "name": "UGANDA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 230,
+  "fields": {
+    "iso_code": "UA",
+    "name": "UKRAINE"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 231,
+  "fields": {
+    "iso_code": "AE",
+    "name": "UNITED ARAB EMIRATES"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 232,
+  "fields": {
+    "iso_code": "GB",
+    "name": "UNITED KINGDOM"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 233,
+  "fields": {
+    "iso_code": "US",
+    "name": "UNITED STATES"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 234,
+  "fields": {
+    "iso_code": "UM",
+    "name": "UNITED STATES MINOR OUTLYING ISLANDS"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 235,
+  "fields": {
+    "iso_code": "UY",
+    "name": "URUGUAY"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 236,
+  "fields": {
+    "iso_code": "UZ",
+    "name": "UZBEKISTAN"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 237,
+  "fields": {
+    "iso_code": "VU",
+    "name": "VANUATU"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 238,
+  "fields": {
+    "iso_code": "VE",
+    "name": "VENEZUELA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 239,
+  "fields": {
+    "iso_code": "VN",
+    "name": "VIET NAM"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 240,
+  "fields": {
+    "iso_code": "VG",
+    "name": "VIRGIN ISLANDS, BRITISH"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 241,
+  "fields": {
+    "iso_code": "VI",
+    "name": "VIRGIN ISLANDS, U.S."
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 242,
+  "fields": {
+    "iso_code": "WF",
+    "name": "WALLIS AND FUTUNA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 243,
+  "fields": {
+    "iso_code": "EH",
+    "name": "WESTERN SAHARA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 244,
+  "fields": {
+    "iso_code": "YE",
+    "name": "YEMEN"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 245,
+  "fields": {
+    "iso_code": "ZM",
+    "name": "ZAMBIA"
+  }
+},
+{
+  "model": "addressbook.country",
+  "pk": 246,
+  "fields": {
+    "iso_code": "ZW",
+    "name": "ZIMBABWE"
+  }
+}
+]
